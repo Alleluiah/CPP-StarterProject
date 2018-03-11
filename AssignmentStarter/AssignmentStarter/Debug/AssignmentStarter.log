@@ -1,0 +1,3 @@
+﻿  BackgroundGenerator.cpp
+e:\uni stuff\intro to games programming\new assignment\assignmentstarter\assignmentstarter\backgroundgenerator.cpp(26): warning C4353: nonstandard extension used: constant 0 as function expression.  Use '__noop' function intrinsic instead
+e:\uni stuff\intro to games programming\new assignment\assignmentstarter\assignmentstarter\backgroundgenerator.cpp(26): error C2659: '=': function as left operand

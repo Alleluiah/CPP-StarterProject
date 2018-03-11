@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>9fbf3e7b-bca2-4a37-9e43-6050de9935c0</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>e5153542-3f68-4600-b09d-ecaa39916892</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dds;dlg;fbx;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tga;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>{5648ed0d-fd9d-4fa0-a0a3-f45ead3212f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="RockRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Cabinets.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrelRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Trophy.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="TrophyShelf.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Glass.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundGenerator.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="GameController.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="TextDraw.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Counter.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="CounterReverse.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ScaleSquare.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlledSquare.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="ElapsedTime.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="EdgeSquare.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatedBarrel.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="RockRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Cabinets.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="BarrelRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Trophy.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="TrophyShelf.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Glass.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundGenerator.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="TextDraw.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Counter.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="CounterReverse.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ScaleSquare.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlledSquare.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="ElapsedTime.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeSquare.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatedBarrel.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="directx.ico">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\barrel.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\big_worm.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\cabinets.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Disc.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\GnomeIdleStance.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\GnomeIntoTroll.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\rock.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SpriteAnimation.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TrollIdleStance.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\TrollIntoGnome.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="settings.manifest">
+      <Filter>Assets</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Assets\italic.spritefont">
+      <Filter>Assets</Filter>
+    </None>
+  </ItemGroup>
+</Project>
